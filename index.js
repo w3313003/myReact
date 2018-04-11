@@ -30,6 +30,7 @@ const React = {
 
 const ReactDOM = {
     render(vnode, container) {
+		console.log(vnode);
 		container.innerHTML = '';
 		return render(vnode, container)
 	}
